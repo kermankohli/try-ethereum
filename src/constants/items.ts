@@ -10,16 +10,7 @@ import radarLogo from '../images/radar.png';
 import uniswapLogo from '../images/uniswap.svg';
 
 import { Category } from './categories';
-
-export interface IItem {
-  name: string;
-  background: string;
-  category: Category;
-  description: string;
-  image: any;
-  maxWidth?: string;
-  url: string;
-}
+import { IItem } from 'types';
 
 const acquireItems: IItem[] = [
   {

@@ -1,9 +1,9 @@
 import * as React from 'react';
 
 import { css, StyleSheet } from 'aphrodite';
-import { IItem } from 'constants/items';
 
 import disclosureArrow from '../images/disclosure.svg';
+import { IItem } from 'types';
 
 const styles = StyleSheet.create({
   descriptionContainer: {

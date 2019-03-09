@@ -3,7 +3,8 @@ import * as React from 'react';
 import HomeItem from './components/home-item';
 
 import { css, StyleSheet } from 'aphrodite';
-import { allItems, IItem } from 'constants/items';
+import { allItems } from 'constants/items';
+import { IItem } from 'types';
 
 const styles = StyleSheet.create({
   descriptionLabel: {
