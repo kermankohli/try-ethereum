@@ -113,7 +113,7 @@ const financeItems: IItem[] = [
   {
     background: '#1F2066',
     category: Category.FINANCE,
-    description: 'Reimagined banking experience for the open financial system.',
+    description: 'Trade and manage your digital assets across different wallets in one interface.',
     image: zerionLogo,
     name: 'Zerion',
     url: 'https://zerion.io/'
