@@ -8,6 +8,8 @@ import localEthereumLogo from '../images/localethereum.svg';
 import makerLogo from '../images/maker.png';
 import radarLogo from '../images/radar.png';
 import uniswapLogo from '../images/uniswap.svg';
+import fetchLogo from '../images/fetch.png';
+
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -79,6 +81,15 @@ const walletItems: IItem[] = [
     maxWidth: '130px',
     name: 'Burner Wallet',
     url: 'https://xdai.io'
+  },
+  {
+    background: '#FFFFFF',
+    category: Category.WALLET,
+    description: 'Ethereum wallet with simple comparison of trading rates and one-click trading.',
+    image: fetchLogo,
+    maxWidth: '130px',
+    name: 'Fetch',
+    url: 'https://hellofetch.co'
   }
 ];
 
