@@ -115,7 +115,7 @@ const financeItems: IItem[] = [
     category: Category.FINANCE,
     description: 'Get paid for working on open source software, build new skills, make new relationships, earn kudos.',
     image: gitcoinLogo,
-    maxWidth: '100px',
+    maxWidth: '130px',
     name: 'Gitcoin',
     url: 'https://gitcoin.co/'
   }
