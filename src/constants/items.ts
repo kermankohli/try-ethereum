@@ -8,6 +8,7 @@ import localEthereumLogo from '../images/localethereum.svg';
 import makerLogo from '../images/maker.png';
 import radarLogo from '../images/radar.png';
 import uniswapLogo from '../images/uniswap.svg';
+import zerionLogo from '../images/zerion.svg';
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -108,6 +109,14 @@ const financeItems: IItem[] = [
     image: compoundLogo,
     name: 'Compound',
     url: 'https://compound.finance/'
+  },
+  {
+    background: '#1F2066',
+    category: Category.FINANCE,
+    description: 'Reimagined banking experience for the open financial system.',
+    image: zerionLogo,
+    name: 'Zerion',
+    url: 'https://zerion.io/'
   }
 ];
 
