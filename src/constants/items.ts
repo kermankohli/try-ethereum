@@ -8,6 +8,7 @@ import localEthereumLogo from '../images/localethereum.svg';
 import makerLogo from '../images/maker.png';
 import radarLogo from '../images/radar.png';
 import uniswapLogo from '../images/uniswap.svg';
+import nuoLogo from '../images/nuo.png';
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -108,6 +109,15 @@ const financeItems: IItem[] = [
     image: compoundLogo,
     name: 'Compound',
     url: 'https://compound.finance/'
+  },
+    {
+    background: '#f7faff',
+    category: Category.FINANCE,
+    description: 'Non-custodial way to lend, borrow or margin trade crypto assets',
+    image: nuoLogo,
+    name: 'Nuo Network',
+    maxWidth: '110px',
+    url: 'https://nuo.network/'
   }
 ];
 
