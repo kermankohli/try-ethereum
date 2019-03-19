@@ -10,6 +10,7 @@ import radarLogo from '../images/radar.png';
 import uniswapLogo from '../images/uniswap.svg';
 import gitcoinLogo from '../images/gitcoin.svg';
 import zerionLogo from '../images/zerion.svg';
+import tokenaryLogo from '../images/tokenary.png';
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -81,6 +82,15 @@ const walletItems: IItem[] = [
     maxWidth: '130px',
     name: 'Burner Wallet',
     url: 'https://xdai.io'
+  },
+  {
+    background: '#437AED',
+    category: Category.WALLET,
+    description: 'Use dapps with Safari extension or in iOS app.',
+    image: tokenaryLogo,
+    maxWidth: '140px',
+    name: 'Tokenary',
+    url: 'https://tokenary.io'
   }
 ];
 
