@@ -1,4 +1,5 @@
 import balanceLogo from '../images/balance.png';
+import bountiesLogo from '../images/bounties.svg';
 import burnerLogo from '../images/burner.png';
 import coinbaseLogo from '../images/coinbase.svg';
 import compoundLogo from '../images/compound.png';
@@ -122,15 +123,6 @@ const financeItems: IItem[] = [
     url: 'https://compound.finance/'
   },
   {
-    background: '#15003e',
-    category: Category.EARN,
-    description: 'Earn crypto by fixing issues on open-source repositories.',
-    image: gitcoinLogo,
-    maxWidth: '130px',
-    name: 'Gitcoin',
-    url: 'https://gitcoin.co/'
-  },
-  {
     background: '#1F2066',
     category: Category.FINANCE,
     description: 'Trade and manage your digital assets across different wallets in one interface.',
@@ -140,9 +132,32 @@ const financeItems: IItem[] = [
   }
 ];
 
+const earnItems: IItem[] = [
+  {
+    background: '#15003e',
+    category: Category.EARN,
+    description: 'Earn crypto by fixing issues on open-source repositories.',
+    image: gitcoinLogo,
+    maxWidth: '130px',
+    name: 'Gitcoin',
+    url: 'https://gitcoin.co/'
+  },
+  {
+    background: '#5A28C6',
+    category: Category.EARN,
+    description: 'Bounties on any task, paid in any token on Ethereum',
+    image: bountiesLogo,
+    maxWidth: '180px',
+    name: 'Bounties Network',
+    url: 'https://bounties.network/'
+  }
+
+];
+
 export const allItems = [
   ...acquireItems,
   ...exchangeItems,
   ...walletItems,
-  ...financeItems
+  ...financeItems,
+  ...earnItems
 ];
