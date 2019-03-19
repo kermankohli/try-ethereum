@@ -8,6 +8,7 @@ import localEthereumLogo from '../images/localethereum.svg';
 import makerLogo from '../images/maker.png';
 import radarLogo from '../images/radar.png';
 import uniswapLogo from '../images/uniswap.svg';
+import gitcoinLogo from '../images/gitcoin.svg';
 import zerionLogo from '../images/zerion.svg';
 
 import { Category } from './categories';
@@ -109,6 +110,15 @@ const financeItems: IItem[] = [
     image: compoundLogo,
     name: 'Compound',
     url: 'https://compound.finance/'
+  },
+  {
+    background: '#15003e',
+    category: Category.EARN,
+    description: 'Earn crypto by fixing issues on open-source repositories.',
+    image: gitcoinLogo,
+    maxWidth: '130px',
+    name: 'Gitcoin',
+    url: 'https://gitcoin.co/'
   },
   {
     background: '#1F2066',

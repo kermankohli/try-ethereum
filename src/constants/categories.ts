@@ -3,5 +3,6 @@ export enum Category {
   EXCHANGE = 'Exchange',
   WALLET = 'Store & Spend',
   FINANCE = 'Finance',
-  GAME = 'Play'
+  GAME = 'Play',
+  EARN = 'Earn'
 }
