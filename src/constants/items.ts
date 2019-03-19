@@ -112,8 +112,8 @@ const financeItems: IItem[] = [
   },
   {
     background: '#15003e',
-    category: Category.FINANCE,
-    description: 'Get paid for working on open source software, build new skills, make new relationships, earn kudos.',
+    category: Category.EARN,
+    description: 'Earn crypto by fixing issues on open-source repositories.',
     image: gitcoinLogo,
     maxWidth: '130px',
     name: 'Gitcoin',
