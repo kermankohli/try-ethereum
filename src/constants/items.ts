@@ -9,6 +9,7 @@ import makerLogo from '../images/maker.png';
 import radarLogo from '../images/radar.png';
 import uniswapLogo from '../images/uniswap.svg';
 import gitcoinLogo from '../images/gitcoin.svg';
+import zerionLogo from '../images/zerion.svg';
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -118,6 +119,14 @@ const financeItems: IItem[] = [
     maxWidth: '130px',
     name: 'Gitcoin',
     url: 'https://gitcoin.co/'
+  },
+  {
+    background: '#1F2066',
+    category: Category.FINANCE,
+    description: 'Trade and manage your digital assets across different wallets in one interface.',
+    image: zerionLogo,
+    name: 'Zerion',
+    url: 'https://zerion.io/'
   }
 ];
 
