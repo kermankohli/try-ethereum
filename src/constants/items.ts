@@ -1,3 +1,4 @@
+import argentLogo from '../images/argent.svg';
 import balanceLogo from '../images/balance.png';
 import bountiesLogo from '../images/bounties.svg';
 import burnerLogo from '../images/burner.png';
@@ -66,6 +67,15 @@ const exchangeItems: IItem[] = [
 ];
 
 const walletItems: IItem[] = [
+  {
+    background: '#000000',
+    category: Category.WALLET,
+    description: 'The first smart wallet. Easy setup, no fees and protection from loss or theft.',
+    image: argentLogo,
+    maxWidth: '140px',
+    name: 'Argent',
+    url: 'https://www.argent.xyz'
+  },
   {
     background: '#021F3C',
     category: Category.WALLET,
