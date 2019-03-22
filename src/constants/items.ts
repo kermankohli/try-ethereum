@@ -1,6 +1,7 @@
 import balanceLogo from '../images/balance.png';
 import bountiesLogo from '../images/bounties.svg';
 import burnerLogo from '../images/burner.png';
+import centLogo from '../images/cent.png';
 import coinbaseLogo from '../images/coinbase.svg';
 import compoundLogo from '../images/compound.png';
 import dharmaLogo from '../images/dharma.png';
@@ -154,10 +155,23 @@ const earnItems: IItem[] = [
 
 ];
 
+const socialItems: IItem[] = [
+  {
+    background: '#000000',
+    category: Category.SOCIAL,
+    description: 'The income-generating social network, enabling anyone to earn from anywhere.',
+    image: centLogo,
+    maxWidth: '42px',
+    name: 'Cent',
+    url: 'https://cent.co/'
+  }
+];
+
 export const allItems = [
   ...acquireItems,
   ...exchangeItems,
   ...walletItems,
   ...financeItems,
-  ...earnItems
+  ...earnItems,
+  ...socialItems
 ];
