@@ -12,6 +12,7 @@ import uniswapLogo from '../images/uniswap.svg';
 import gitcoinLogo from '../images/gitcoin.svg';
 import zerionLogo from '../images/zerion.svg';
 import tokenaryLogo from '../images/tokenary.png';
+import foamlogo from '../images/foam.png';
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -154,10 +155,23 @@ const earnItems: IItem[] = [
 
 ];
 
+const mapItems: IItem[] = [
+  {
+    background: '#020202',
+    category: Category.MAP,
+    description: 'Add and curate points on the decentralized map of the world.',
+    image: foamLogo,
+    name: 'FOAM Map',
+    url: 'https://map.foam.space'
+  }
+
+];
+
 export const allItems = [
   ...acquireItems,
   ...exchangeItems,
   ...walletItems,
   ...financeItems,
-  ...earnItems
+  ...earnItems,
+  ...mapItems
 ];
