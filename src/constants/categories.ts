@@ -4,5 +4,6 @@ export enum Category {
   WALLET = 'Store & Spend',
   FINANCE = 'Finance',
   GAME = 'Play',
-  EARN = 'Earn'
+  EARN = 'Earn',
+  MAP = 'Map'
 }
