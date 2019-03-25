@@ -98,7 +98,7 @@ const walletItems: IItem[] = [
   {
     background: '#437AED',
     category: Category.WALLET,
-    description: 'Use dapps with Safari extension or in iOS app.',
+    description: 'Use crypto apps with a Safari extension or an iOS app.',
     image: tokenaryLogo,
     maxWidth: '140px',
     name: 'Tokenary',
@@ -156,16 +156,16 @@ const earnItems: IItem[] = [
   {
     background: '#5A28C6',
     category: Category.EARN,
-    description: 'Bounties on any task, paid in any token on Ethereum',
+    description: 'Bounties on any task, paid in any token.',
     image: bountiesLogo,
     maxWidth: '180px',
     name: 'Bounties Network',
     url: 'https://bounties.network/'
   },
   {
-    background: '#020202',
+    background: '#A77777',
     category: Category.EARN,
-    description: 'Add and curate points on the decentralized map of the world.',
+    description: 'Add and curate points on a map of the world.',
     image: foamLogo,
     name: 'FOAM Map',
     url: 'https://map.foam.space'
