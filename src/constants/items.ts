@@ -69,15 +69,6 @@ const exchangeItems: IItem[] = [
 
 const walletItems: IItem[] = [
   {
-    background: '#021F3C',
-    category: Category.WALLET,
-    description: 'A beautiful crypto wallet with access to permission-less financial services.',
-    image: balanceLogo,
-    maxWidth: '140px',
-    name: 'Balance',
-    url: 'https://balance.io'
-  },
-   {
     background: '#117994',
     category: Category.WALLET,
     description: 'Make a wallet and manage your crypto. Also works with Ledger, Trezor, and MetaMask.',
@@ -85,6 +76,15 @@ const walletItems: IItem[] = [
     maxWidth: '140px',
     name: 'MyCrypto',
     url: 'https://mycrypto.com'
+  },
+  {
+    background: '#021F3C',
+    category: Category.WALLET,
+    description: 'A beautiful crypto wallet with access to permission-less financial services.',
+    image: balanceLogo,
+    maxWidth: '140px',
+    name: 'Balance',
+    url: 'https://balance.io'
   },
   {
     background: '#F24923',
