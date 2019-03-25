@@ -13,6 +13,7 @@ import gitcoinLogo from '../images/gitcoin.svg';
 import zerionLogo from '../images/zerion.svg';
 import tokenaryLogo from '../images/tokenary.png';
 import foamLogo from '../images/foam.png';
+import mycryptoLogo from '../images/mycrypto-white.svg';
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -75,6 +76,15 @@ const walletItems: IItem[] = [
     maxWidth: '140px',
     name: 'Balance',
     url: 'https://balance.io'
+  },
+   {
+    background: '#117994',
+    category: Category.WALLET,
+    description: 'Make a wallet and manage your crypto. Also works with Ledger, Trezor, and MetaMask.',
+    image: mycryptoLogo,
+    maxWidth: '140px',
+    name: 'MyCrypto',
+    url: 'https://mycrypto.com'
   },
   {
     background: '#F24923',
