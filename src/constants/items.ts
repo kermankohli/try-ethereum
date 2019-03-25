@@ -159,7 +159,7 @@ const socialItems: IItem[] = [
   {
     background: '#000000',
     category: Category.SOCIAL,
-    description: 'The income-generating social network, enabling anyone to earn from anywhere.',
+    description: 'Social network that earns you money as you create, share & curate good content.',
     image: centLogo,
     maxWidth: '42px',
     name: 'Cent',
