@@ -12,6 +12,7 @@ import uniswapLogo from '../images/uniswap.svg';
 import gitcoinLogo from '../images/gitcoin.svg';
 import zerionLogo from '../images/zerion.svg';
 import tokenaryLogo from '../images/tokenary.png';
+import foamLogo from '../images/foam.png';
 import mycryptoLogo from '../images/mycrypto-white.svg';
 
 import { Category } from './categories';
@@ -160,6 +161,14 @@ const earnItems: IItem[] = [
     maxWidth: '180px',
     name: 'Bounties Network',
     url: 'https://bounties.network/'
+  },
+  {
+    background: '#020202',
+    category: Category.EARN,
+    description: 'Add and curate points on the decentralized map of the world.',
+    image: foamLogo,
+    name: 'FOAM Map',
+    url: 'https://map.foam.space'
   }
 
 ];
