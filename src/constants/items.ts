@@ -1,3 +1,4 @@
+import argentLogo from '../images/argent.svg';
 import balanceLogo from '../images/balance.png';
 import bountiesLogo from '../images/bounties.svg';
 import burnerLogo from '../images/burner.png';
@@ -88,15 +89,6 @@ const walletItems: IItem[] = [
     url: 'https://balance.io'
   },
   {
-    background: '#F24923',
-    category: Category.WALLET,
-    description: 'Send and receive tokens immediately.\n Very low fees and fast transaction times.',
-    image: burnerLogo,
-    maxWidth: '130px',
-    name: 'Burner Wallet',
-    url: 'https://xdai.io'
-  },
-  {
     background: '#437AED',
     category: Category.WALLET,
     description: 'Use crypto apps with a Safari extension or an iOS app.',
@@ -104,6 +96,24 @@ const walletItems: IItem[] = [
     maxWidth: '140px',
     name: 'Tokenary',
     url: 'https://tokenary.io'
+  },
+  {
+    background: '#000000',
+    category: Category.WALLET,
+    description: 'The first smart wallet. Easy setup, no fees and protection from loss or theft. Join our waiting list!',
+    image: argentLogo,
+    maxWidth: '140px',
+    name: 'Argent',
+    url: 'https://www.argent.xyz'
+  },
+  {
+    background: '#F24923',
+    category: Category.WALLET,
+    description: 'Send and receive tokens immediately.\n Very low fees and fast transaction times.',
+    image: burnerLogo,
+    maxWidth: '130px',
+    name: 'Burner Wallet',
+    url: 'https://xdai.io'
   }
 ];
 
