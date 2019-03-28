@@ -98,7 +98,7 @@ const walletItems: IItem[] = [
     url: 'https://tokenary.io'
   },
   {
-    background: '#000000',
+    background: '#3a3a3a',
     category: Category.WALLET,
     description: 'The first smart wallet. Easy setup, no fees and protection from loss or theft. Join our waiting list!',
     image: argentLogo,
