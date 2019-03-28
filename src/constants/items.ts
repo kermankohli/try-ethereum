@@ -2,6 +2,7 @@ import argentLogo from '../images/argent.svg';
 import balanceLogo from '../images/balance.png';
 import bountiesLogo from '../images/bounties.svg';
 import burnerLogo from '../images/burner.png';
+import centLogo from '../images/cent.png';
 import coinbaseLogo from '../images/coinbase.svg';
 import compoundLogo from '../images/compound.png';
 import dharmaLogo from '../images/dharma.png';
@@ -13,6 +14,8 @@ import uniswapLogo from '../images/uniswap.svg';
 import gitcoinLogo from '../images/gitcoin.svg';
 import zerionLogo from '../images/zerion.svg';
 import tokenaryLogo from '../images/tokenary.png';
+import foamLogo from '../images/foam.png';
+import mycryptoLogo from '../images/mycrypto-white.svg';
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -68,13 +71,13 @@ const exchangeItems: IItem[] = [
 
 const walletItems: IItem[] = [
   {
-    background: '#000000',
+    background: '#117994',
     category: Category.WALLET,
-    description: 'The first smart wallet. Easy setup, no fees and protection from loss or theft. Join our waiting list!',
-    image: argentLogo,
+    description: 'Make a wallet and manage your crypto. Also works with Ledger, Trezor, and MetaMask.',
+    image: mycryptoLogo,
     maxWidth: '140px',
-    name: 'Argent',
-    url: 'https://www.argent.xyz'
+    name: 'MyCrypto',
+    url: 'https://mycrypto.com'
   },
   {
     background: '#021F3C',
@@ -86,6 +89,24 @@ const walletItems: IItem[] = [
     url: 'https://balance.io'
   },
   {
+    background: '#437AED',
+    category: Category.WALLET,
+    description: 'Use crypto apps with a Safari extension or an iOS app.',
+    image: tokenaryLogo,
+    maxWidth: '140px',
+    name: 'Tokenary',
+    url: 'https://tokenary.io'
+  },
+  {
+    background: '#000000',
+    category: Category.WALLET,
+    description: 'The first smart wallet. Easy setup, no fees and protection from loss or theft. Join our waiting list!',
+    image: argentLogo,
+    maxWidth: '140px',
+    name: 'Argent',
+    url: 'https://www.argent.xyz'
+  },
+  {
     background: '#F24923',
     category: Category.WALLET,
     description: 'Send and receive tokens immediately.\n Very low fees and fast transaction times.',
@@ -93,15 +114,6 @@ const walletItems: IItem[] = [
     maxWidth: '130px',
     name: 'Burner Wallet',
     url: 'https://xdai.io'
-  },
-  {
-    background: '#437AED',
-    category: Category.WALLET,
-    description: 'Use dapps with Safari extension or in iOS app.',
-    image: tokenaryLogo,
-    maxWidth: '140px',
-    name: 'Tokenary',
-    url: 'https://tokenary.io'
   }
 ];
 
@@ -155,13 +167,33 @@ const earnItems: IItem[] = [
   {
     background: '#5A28C6',
     category: Category.EARN,
-    description: 'Bounties on any task, paid in any token on Ethereum',
+    description: 'Bounties on any task, paid in any token.',
     image: bountiesLogo,
     maxWidth: '180px',
     name: 'Bounties Network',
     url: 'https://bounties.network/'
+  },
+  {
+    background: '#A77777',
+    category: Category.EARN,
+    description: 'Add and curate points on a map of the world.',
+    image: foamLogo,
+    name: 'FOAM Map',
+    url: 'https://map.foam.space'
   }
 
+];
+
+const socialItems: IItem[] = [
+  {
+    background: '#000000',
+    category: Category.SOCIAL,
+    description: 'Social network that earns you money as you create, share & curate good content.',
+    image: centLogo,
+    maxWidth: '42px',
+    name: 'Cent',
+    url: 'https://cent.co/'
+  }
 ];
 
 export const allItems = [
@@ -169,5 +201,6 @@ export const allItems = [
   ...exchangeItems,
   ...walletItems,
   ...financeItems,
-  ...earnItems
+  ...earnItems,
+  ...socialItems
 ];
