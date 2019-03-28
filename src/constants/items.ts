@@ -70,7 +70,7 @@ const walletItems: IItem[] = [
   {
     background: '#000000',
     category: Category.WALLET,
-    description: 'The first smart wallet. Easy setup, no fees and protection from loss or theft.',
+    description: 'The first smart wallet. Easy setup, no fees and protection from loss or theft. Join our waiting list!',
     image: argentLogo,
     maxWidth: '140px',
     name: 'Argent',
