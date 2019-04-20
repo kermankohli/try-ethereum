@@ -8,6 +8,13 @@
 
 @font-face {
   font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 550;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-style: normal;
 }
@@ -22,6 +29,7 @@
 
 html {
   font-size: 14px;
+  background: #F8F8FA;
 }
 
 hr {
@@ -39,6 +47,21 @@ h1 {
 h2 {
   font-weight: 500;
   font-size: 1.75em;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.5em;
+  margin: 0.5em 0em;
+}
+
+h5 {
+  text-transform: uppercase;
+  color: #8C8C8C;
+  font-weight: 550;
+  font-size: 0.75em;
+  margin: 0.5em 0em;
+  letter-spacing: 0.075em;
 }
 
 /* Containers */

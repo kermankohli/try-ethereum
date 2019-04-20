@@ -18,7 +18,7 @@
     "importHelpers": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "paths": {
       "@components/*": [ "components/*" ],
       "@img/*": [ "img/*" ],

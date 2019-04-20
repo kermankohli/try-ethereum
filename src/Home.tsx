@@ -5,80 +5,59 @@ import HomeItem from './components/home-item';
 import { css, StyleSheet } from 'aphrodite';
 import { allItems } from 'constants/items';
 import { IItem } from 'types';
+import AppGrid from '@components/app-grid';
+import AppList from '@components/app-list';
+import FeatureCard from '@components/feature-card';
 
 const styles = StyleSheet.create({
   descriptionLabel: {
     fontSize: '1.25em'
   },
-  homeLayout: {
-
+  homeContainer: {
+    maxWidth: '1100px',
+    margin: 'auto'
   },
-  sectionItems: {
+  titleContainer: {
+    marginBottom: '3em'
+  }, 
+  featureLayout: {
     display: 'grid',
-    gridColumnGap: '2em',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(37em, 1fr))',
     gridRowGap: '3em',
-    gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))'
+    justifyItems: 'start end',
+    marginBottom: '3em'
+  },
+  appLayout: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(23em, 1fr))',
+    gridRowGap: '3em',
+    justifyItems: 'start center end'
   }
 });
 
 class Home extends React.Component {
   public render() {
-    const categories = this.groupBy(allItems, 'category');
     return (
-      <div>
-        <div className='container'>
+      <div className={css(styles.homeContainer)}>
+        <div className={css(styles.titleContainer)}>
           <h1>Try Ethereum</h1>
           <p className={css(styles.descriptionLabel)}>Want to experience the power of Ethereum? Here’s some cool things to get started with.</p>
         </div>
 
-        <div className='container'>
-          <hr/>
+        <div className={css(styles.featureLayout)}>
+          <FeatureCard/>
+          <FeatureCard/>
         </div>
 
-        {
-          Object.keys(categories).map((key) => {
-            const items = categories[key];
-            return (
-              <div className='container'>
-                <div>
-                  <h2>{key}</h2>
-                  <div className={css(styles.sectionItems)}>
-                    {this.itemsForCategory(items)}
-                  </div>
-                </div>
-              </div>
-            )
-          })
-        }
+        <div className={css(styles.appLayout)}>
+          <AppGrid/>
+          <AppList/>
+          <AppGrid/>
+        </div>
 
       </div>
     );
   }
-
-  private itemsForCategory(items: IItem[]): any {
-    return items.map((item) => {
-      return (
-        <HomeItem 
-          key={item.name}
-          name={item.name} 
-          description={item.description}
-          background={item.background}
-          image={item.image}
-          maxWidth={item.maxWidth}
-          category={item.category}
-          url={item.url}
-        />
-      );
-    });
-  }
-
-  private groupBy(xs: any, key: string) {
-    return xs.reduce((rv: any, x: string) => {
-      (rv[x[key]] = rv[x[key]] || []).push(x);
-      return rv;
-    }, {});
-  };
-  
 }
 
 export default Home;
