@@ -56,7 +56,7 @@ const exchangeItems: IItem[] = [
     description: 'Want to sell your tokens and earn passive income?',
     image: uniswapLogo,
     name: 'Uniswap',
-    url: 'https://uniswap.exchange/'
+    url: 'https://uniswap.exchange/swap/'
   },
   {
     background: '#0B0B0B',
@@ -134,7 +134,7 @@ const financeItems: IItem[] = [
     image: dharmaLogo,
     maxWidth: '150px',
     name: 'Dharma',
-    url: 'https://dharmalever.com/'
+    url: 'https://www.dharma.io/'
   },
   {
     background: '#18452B',
