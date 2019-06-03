@@ -197,7 +197,7 @@ const socialItems: IItem[] = [
     url: 'https://cent.co/'
   },
    {
-    background: '#000000',
+    background: '#0767e0',
     category: Category.SOCIAL,
     description: '3Box connects your ethereum wallet and displays your interactions with other wallets',
     image: threeBoxLogo,
