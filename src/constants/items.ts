@@ -151,6 +151,14 @@ const financeItems: IItem[] = [
     image: zerionLogo,
     name: 'Zerion',
     url: 'https://zerion.io/'
+  },
+  {
+    background: '#12273F',
+    category: Category.FINANCE,
+    description: 'Your bridge to decentralized and open Finance',
+    image: instadappLogo,
+    name: 'InstaDApp',
+    url: 'https://instadapp.io/'
   }
 ];
 
