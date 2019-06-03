@@ -16,6 +16,8 @@ import zerionLogo from '../images/zerion.svg';
 import tokenaryLogo from '../images/tokenary.png';
 import foamLogo from '../images/foam.png';
 import mycryptoLogo from '../images/mycrypto-white.svg';
+import threeBoxLogo from '../images/threebox.svg';
+
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -193,6 +195,15 @@ const socialItems: IItem[] = [
     maxWidth: '42px',
     name: 'Cent',
     url: 'https://cent.co/'
+  },
+   {
+    background: '#000000',
+    category: Category.SOCIAL,
+    description: '3Box connects your ethereum wallet and displays your interactions with other wallets',
+    image: threeBoxLogo,
+    maxWidth: '180px',
+    name: '3Box',
+    url: 'https://3box.io/'
   }
 ];
 
