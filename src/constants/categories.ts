@@ -5,5 +5,6 @@ export enum Category {
   FINANCE = 'Finance',
   GAME = 'Play',
   EARN = 'Earn',
-  SOCIAL = 'Social'
+  SOCIAL = 'Social',
+  INTERACT = "Interact"
 }

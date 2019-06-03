@@ -8,6 +8,7 @@ import compoundLogo from '../images/compound.png';
 import dharmaLogo from '../images/dharma.png';
 import kyberLogo from '../images/kyber.svg';
 import localEthereumLogo from '../images/localethereum.svg';
+import limepayLogo from '../images/limepay.png';
 import makerLogo from '../images/maker.png';
 import radarLogo from '../images/radar.png';
 import uniswapLogo from '../images/uniswap.svg';
@@ -16,6 +17,7 @@ import zerionLogo from '../images/zerion.svg';
 import tokenaryLogo from '../images/tokenary.png';
 import foamLogo from '../images/foam.png';
 import mycryptoLogo from '../images/mycrypto-white.svg';
+import walletConnectLogo from '../images/walletconnect.png';
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -196,11 +198,31 @@ const socialItems: IItem[] = [
   }
 ];
 
+const interactItems: IItem[] = [
+  {
+    background: '#171D27',
+    category: Category.INTERACT,
+    description: 'Executing Ethereum transactions with credit card.',
+    image: limepayLogo,
+    name: 'LimePay',
+    url: 'https://limepay.io/'
+  },
+  {
+    background: '#FFFFFF',
+    category: Category.INTERACT,
+    description: 'Open protocol for connecting Wallets to Dapps.',
+    image: walletConnectLogo,
+    name: 'Wallet Connect',
+    url: 'https://walletconnect.org/'
+  }
+];
+
 export const allItems = [
   ...acquireItems,
   ...exchangeItems,
   ...walletItems,
   ...financeItems,
   ...earnItems,
+  ...interactItems,
   ...socialItems
 ];
