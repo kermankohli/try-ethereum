@@ -167,7 +167,7 @@ const financeItems: IItem[] = [
     background: '#090818',
     category: Category.FINANCE,
     description: 'Mint stable coin sUSD and earn fees on the usage of your coins',
-    image: mintrLogo,
+    image: synthetixMintrLogo,
     name: 'Synthetix Mintr',
     url: 'https://mintr.synthetix.io'
   }
