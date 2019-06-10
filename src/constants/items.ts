@@ -154,6 +154,14 @@ const financeItems: IItem[] = [
     url: 'https://zerion.io/'
   },
   {
+    background: '#12273F',
+    category: Category.FINANCE,
+    description: 'Your bridge to decentralized and open Finance',
+    image: instadappLogo,
+    name: 'InstaDApp',
+    url: 'https://instadapp.io/'
+  },
+  {
     background: '#20474D',
     category: Category.FINANCE,
     description: 'Manage your MakerDAO CDPs the easy way. Even on the go.',
