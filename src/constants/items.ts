@@ -17,6 +17,7 @@ import tokenaryLogo from '../images/tokenary.png';
 import foamLogo from '../images/foam.png';
 import mycryptoLogo from '../images/mycrypto-white.svg';
 import threeBoxLogo from '../images/threebox.svg';
+import cdpsaverLogo from '../images/cdpsaver.png';
 
 
 import { Category } from './categories';
@@ -153,6 +154,22 @@ const financeItems: IItem[] = [
     image: zerionLogo,
     name: 'Zerion',
     url: 'https://zerion.io/'
+  },
+  {
+    background: '#12273F',
+    category: Category.FINANCE,
+    description: 'Your bridge to decentralized and open Finance',
+    image: instadappLogo,
+    name: 'InstaDApp',
+    url: 'https://instadapp.io/'
+  },
+  {
+    background: '#20474D',
+    category: Category.FINANCE,
+    description: 'Manage your MakerDAO CDPs the easy way. Even on the go.',
+    image: cdpsaverLogo,
+    name: 'CDP Saver',
+    url: 'https://cdpsaver.com/'
   }
 ];
 
