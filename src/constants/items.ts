@@ -11,7 +11,6 @@ import localEthereumLogo from '../images/localethereum.svg';
 import makerLogo from '../images/maker.png';
 import radarLogo from '../images/radar.png';
 import synthetixExchangeLogo from '../images/synthetix-exchange.svg';
-import synthetixMintrLogo from '../images/synthetix-mintr.svg';
 import uniswapLogo from '../images/uniswap.svg';
 import gitcoinLogo from '../images/gitcoin.svg';
 import zerionLogo from '../images/zerion.svg';
@@ -162,14 +161,6 @@ const financeItems: IItem[] = [
     image: zerionLogo,
     name: 'Zerion',
     url: 'https://zerion.io/'
-  },
-  {
-    background: '#090818',
-    category: Category.FINANCE,
-    description: 'Mint stable coin sUSD and earn fees on the usage of your coins',
-    image: synthetixMintrLogo,
-    name: 'Synthetix Mintr',
-    url: 'https://mintr.synthetix.io'
   }
 ];
 
