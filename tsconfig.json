@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./src/",
     "typeRoots": ["node_modules/@types"],
+    "types": ["react", "jest", "node"],
     "outDir": "build/dist",
     "module": "esnext",
     "target": "es5",

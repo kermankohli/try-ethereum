@@ -1,13 +1,12 @@
 import * as React from 'react';
-
 import HomeItem from './components/home-item';
-
 import { css, StyleSheet } from 'aphrodite';
 import { allItems } from 'constants/items';
 import { IItem } from 'types';
 import AppGrid from '@components/app-grid';
 import AppList from '@components/app-list';
 import FeatureCard from '@components/feature-card';
+import Card from './components/card'
 
 const styles = StyleSheet.create({
   descriptionLabel: {
@@ -43,6 +42,8 @@ class Home extends React.Component {
           <h1>Try Ethereum</h1>
           <p className={css(styles.descriptionLabel)}>Want to experience the power of Ethereum? Here’s some cool things to get started with.</p>
         </div>
+
+        <Card/>
 
         <div className={css(styles.featureLayout)}>
           <FeatureCard/>
