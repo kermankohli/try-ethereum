@@ -1,4 +1,5 @@
 import * as React from 'react';
+import styled from 'styled-components';
 import HomeItem from './components/home-item';
 import { css, StyleSheet } from 'aphrodite';
 import { allItems } from 'constants/items';
@@ -34,6 +35,10 @@ const styles = StyleSheet.create({
   }
 });
 
+const CardContainer = styled.div`
+  display: flex;
+`
+
 class Home extends React.Component {
   public render() {
     return (
@@ -42,8 +47,9 @@ class Home extends React.Component {
           <h1>Try Ethereum</h1>
           <p className={css(styles.descriptionLabel)}>Want to experience the power of Ethereum? Here’s some cool things to get started with.</p>
         </div>
-
-        <Card/>
+        <CardContainer>
+          <Card/>
+        </CardContainer>
 
         <div className={css(styles.featureLayout)}>
           <FeatureCard/>
