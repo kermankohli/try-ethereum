@@ -17,6 +17,7 @@ import tokenaryLogo from '../images/tokenary.png';
 import foamLogo from '../images/foam.png';
 import mycryptoLogo from '../images/mycrypto-white.svg';
 import cdpsaverLogo from '../images/cdpsaver.png';
+import alphawalletLogo from "../images/alphawalletLogo.png";
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -71,6 +72,15 @@ const exchangeItems: IItem[] = [
 ];
 
 const walletItems: IItem[] = [
+  {
+    background: '#fff',
+    category: Category.WALLET,
+    description: 'Dynamic ethereum wallet that brings your tokens to life with TokenScript.',
+    image: alphawalletLogo,
+    maxWidth: '140px',
+    name: 'AlphaWallet',
+    url: 'https://alphawallet.com/'
+  },
   {
     background: '#117994',
     category: Category.WALLET,
