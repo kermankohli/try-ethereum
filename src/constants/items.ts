@@ -18,6 +18,7 @@ import tokenaryLogo from '../images/tokenary.png';
 import foamLogo from '../images/foam.png';
 import mycryptoLogo from '../images/mycrypto-white.svg';
 import cdpsaverLogo from '../images/cdpsaver.png';
+import sablierLogo from '../images/sablier.png';
 
 import { Category } from './categories';
 import { IItem } from 'types';
@@ -156,6 +157,22 @@ const financeItems: IItem[] = [
     url: 'https://compound.finance/'
   },
   {
+    background: '#20474D',
+    category: Category.FINANCE,
+    description: 'Manage your MakerDAO CDPs the easy way. Even on the go.',
+    image: cdpsaverLogo,
+    name: 'CDP Saver',
+    url: 'https://cdpsaver.com/'
+  },
+  {
+    background: '#F77423',
+    category: Category.FINANCE,
+    description: 'Stream money, just like you stream music or videos',
+    image: sablierLogo,
+    name: 'Sablier',
+    url: 'https://pay.sablier.finance',
+  },
+  {
     background: '#1F2066',
     category: Category.FINANCE,
     description: 'Trade and manage your digital assets across different wallets in one interface.',
@@ -163,22 +180,14 @@ const financeItems: IItem[] = [
     name: 'Zerion',
     url: 'https://zerion.io/'
   },
-  {
-    background: '#12273F',
-    category: Category.FINANCE,
-    description: 'Your bridge to decentralized and open Finance',
-    image: instadappLogo,
-    name: 'InstaDApp',
-    url: 'https://instadapp.io/'
-  },
-  {
-    background: '#20474D',
-    category: Category.FINANCE,
-    description: 'Manage your MakerDAO CDPs the easy way. Even on the go.',
-    image: cdpsaverLogo,
-    name: 'CDP Saver',
-    url: 'https://cdpsaver.com/'
-  }
+//   {
+//     background: '#12273F',
+//     category: Category.FINANCE,
+//     description: 'Your bridge to decentralized and open Finance',
+//     image: instadappLogo,
+//     name: 'InstaDApp',
+//     url: 'https://instadapp.io/'
+//   },
 ];
 
 const earnItems: IItem[] = [
